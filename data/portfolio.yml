@@ -1,16 +1,15 @@
-firstname: Jonathan Lucku
+firstname: Jonathan Lucky
 lastname: Yap
 subheader: Quality Assurance
 resume: <Link to your resume document>
 
 social:
-  - link: <Link to social>
+  - link: https://www.linkedin.com/in/jonathan-lucky-yap-40147421a/
     svg: linkedin.svg
-  - link: #
+  - link: https://github.com/luckyume
     svg: github.svg
 about:
-  description: As a dedicated Java developer with over 3+ years of experience, I specialize in building scalable, robust applications using Spring Boot and microservices. With a keen eye for clean code and design patterns, I thrive on solving complex challenges and delivering impactful solutions. Currently seeking opportunities to contribute to innovative projects that leverage Java and cutting-edge technologies.
-
+  description: Experienced in manual testing and test case design, with a growing interest in automation testing and API testing. Comfortable working with cross-functional teams to identify issues early, validate requirements, and deliver stable releases. Skilled in analyzing requirements, creating detailed test scenarios, executing test cases, and reporting defects clearly and effectively. Familiar with SDLC/STLC, Agile environments, and collaboration with developers and product teams. Passionate about continuous learning, improving testing processes, and contributing to high-quality digital products.
   skills:
     - name: Java
       svg: java.svg
@@ -32,43 +31,77 @@ about:
       svg: css.svg
     - name: JavaScript
       svg: javascript.svg
-    - name: Docker
-      svg: docker.svg
     - name: Git
       svg: git.svg
+    - name: Postman
+      svg: postman.svg
 
 experience:
   - company: PT. Megacom Alfapratama
     title: Intern Social Media Specialist
-    description: 
+    description:
+      Take photo & video for content needed
+
+      Develop graphic designs for social media content
+
+      Create social media content to engage potential customers
     startDate: 2019-01-01
     endDate: 2019-03-30
   
-  - company: PT. Artivisi Intermedia
-    title: Full-Stack
-    description: 
-    startDate: 
-    endDate: 
-projects:
-  - title: Generali Microsite
-    projectDate: 2022-01-01
-    description: PT Asuransi Jiwa Generali Indonesia adalah bagian dari Generali Group, yaitu sebuah grup perusahaan penyedia asuransi terkemuka yang didirikan pada tahun 1831 di Trieste, Italia. Saat ini, Generali Group sudah menjadi salah satu grup bisnis utama dalam industri asuransi global - sebuah sektor strategis yang sangat penting bagi pertumbuhan, perkembangan dan kesejahteraan masyarakat modern.
-    skills:
-      - name: MySql
-        svg: mysql.svg
-  - title: Orbit Stevedoring PTB
-    projectDate: 2022-01-01
-    description: Healcare system based in Indonesia
-    skills:
-      - name: MySql
-        svg: mysql.svg
+  - company: PT. Equityworld Futures
+    title: Business Consultant
+    description: |
+      Contacting the client
+      Presentation
+      Convince clients to become our business partners
+      Help client business grow
+    startDate: 2025-01-30
+    endDate: 2019-03-28
+
+  - company: PT. Hachi Group Indonesia
+    title: Part-Time Cleaner
+    description: |
+      Take dirty dishes to the sink
+      Wipe the washed dishes
+      Helping customers if they need assistance
+    startDate: 2025-03-24
+    endDate: 2019-04-18
+
+  - company: PT. Valortek Ratanika Utama
+    title: Quality Assurance Staff
+    description: |
+      Management account for testing and project purposes
+      Create a manual book for users
+      Record conversations in ongoing meetings
+      Ensure the company's products run according to user requests
+      Carry out testing on company products, applications, and websites, then provide a data report of the results to relevant stakeholders.
+      Demo product to user
+      Train users to use our product
+      Pilot drone
+      Build drone
+    startDate: 2025-05-05
+    endDate: Present
+
+organizations:
+  - name: Pemuda Thridharma Indonesia
+    startDate: 2015-06-01
+    endDate: Present
+    description: |
+      Position as the secretary of Prajapati branch temple till June 2018.
+      This organization is religious based.
+      Arrange branch manager schedule.
+      Take care of incoming and outgoing mail, such as letter of invitation and letter of assignment.
+      Member of Prajapati branch temple from 2021 till 2025.
+      Think and create an interesting event.
+      Help fill gaps in each activity held.
+      Administrator kepemudaan from 2025.
 
 actions:
   - title: GitHub Profile
     subtitle: More projects
-    button: "agung878"
-    link: <Link to GitHub>
+    button: "luckyume"
+    link: https://github.com/luckyume
   - title: Get In Touch
     subtitle: "Contact me"
-    button: "Email"
-    link: mailto:<Your Email>
+    button: "jonathanluckyyap@gmail.com"
+    link: mailto:jonathanluckyyap@gmail.com
