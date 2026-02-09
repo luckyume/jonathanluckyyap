@@ -1,0 +1,18 @@
+[build]
+  publish = "public"
+  command = "curl -L https://github.com/gohugoio/hugo/releases/download/v0.154.5/hugo_extended_0.154.5_linux-amd64.tar.gz | tar -xz && ./hugo --gc --minify"
+
+[build.environment]
+  HUGO_ENV = "production"
+
+[[redirects]]
+  from = "https://jonathanluckyyap.netlify.app/*"
+  to = "https://www.jonathanluckyyap.my.id/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://jonathanluckyyap.netlify.app/*"
+  to = "https://www.jonathanluckyyap.my.id/:splat"
+  status = 301
+  force = true

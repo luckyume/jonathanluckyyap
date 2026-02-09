@@ -1,3 +1,6 @@
+baseURL = "https://www.jonathanluckyyap.my.id/"
+languageCode = "en-us"
+title = "Jonathan Lucky Yap - Portfolio"
 name = "Simple Dev Portfolio"
 license = "MIT"
 licenselink = "https://https://github.com/xinweilau/simple-dev-portfolio/blob/main/LICENSE"
