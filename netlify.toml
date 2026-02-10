@@ -1,6 +1,6 @@
 [build]
-  command = "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css && hugo"
+  command = "hugo"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.0.154.5"
+  HUGO_VERSION = "0.0.115.4"
