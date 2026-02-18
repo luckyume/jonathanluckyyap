@@ -28,18 +28,13 @@ jobs:
           hugo-version: '0.115.4'
           extended: true
 
-      - name: Install Tailwind CSS
-        run: |
-          npm install -g tailwindcss
-
       - name: Clean install dependencies
         run: |
           rm -rf node_modules package-lock.json
           npm ci
 
       - name: Build Tailwind CSS
-        run: |
-          npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css
+        run: npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css
 
       - name: Build Hugo
         run: hugo --minify
