@@ -17,6 +17,6 @@
     }
 
     p {
-        @apply text-content;
+        color: theme('colors.content');
     }
 }
